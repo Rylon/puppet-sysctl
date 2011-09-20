@@ -4,6 +4,12 @@
 
 This modules allows to configure sysctl.
 
+= Installing
+
+Clone the puppet-sysctl project into your modules directory, then ensure you import the module into your manifests:
+
+  import "puppet-sysctl"
+
 = Usage
   
   node "mynode" inherits ... {
